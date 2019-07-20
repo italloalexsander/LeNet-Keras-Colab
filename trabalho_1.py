@@ -1,6 +1,4 @@
-!pip install tensorflow-gpu
-
-from keras.datasets import fashion_mnist
+from keras.datasets import fashion_mnist 
 from keras.models import Sequential
 from keras.layers import Dense, Flatten
 from keras.layers import Conv2D, MaxPooling2D
